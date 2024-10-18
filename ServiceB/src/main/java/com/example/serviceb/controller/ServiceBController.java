@@ -1,5 +1,6 @@
 package com.example.serviceb.controller;
 
+import com.example.serviceb.exception.EntityNotFoundException;
 import com.example.serviceb.openfeign.ServiceAClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,7 +15,8 @@ public class ServiceBController {
 
     @GetMapping("/call-to-service-a")
     public String callToServiceA() {
-        return serviceAClient.sayHello();
+        throw new EntityNotFoundException("aaa");
+        // return serviceAClient.sayHello();
     }
 
 }
