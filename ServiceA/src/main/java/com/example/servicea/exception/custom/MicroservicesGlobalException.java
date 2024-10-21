@@ -1,4 +1,4 @@
-package com.example.servicea.exception;
+package com.example.servicea.exception.custom;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

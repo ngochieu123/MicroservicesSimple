@@ -1,7 +1,7 @@
-package com.example.servicea.exception;
+package com.example.serviceb.exception;
 
-import com.example.servicea.exception.common.ErrorResponse;
-import com.example.servicea.exception.custom.MicroservicesGlobalException;
+import com.example.serviceb.exception.common.ErrorResponse;
+import com.example.serviceb.exception.custom.MicroservicesGlobalException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

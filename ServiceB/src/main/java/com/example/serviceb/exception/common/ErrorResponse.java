@@ -1,4 +1,4 @@
-package com.example.servicea.exception;
+package com.example.serviceb.exception.common;
 
 import lombok.Builder;
 import lombok.Getter;

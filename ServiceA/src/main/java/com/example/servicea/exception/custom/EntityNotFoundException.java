@@ -1,4 +1,6 @@
-package com.example.servicea.exception;
+package com.example.servicea.exception.custom;
+
+import com.example.servicea.exception.common.GlobalErrorCode;
 
 public class EntityNotFoundException extends MicroservicesGlobalException {
     public EntityNotFoundException() {

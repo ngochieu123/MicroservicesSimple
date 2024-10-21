@@ -1,4 +1,4 @@
-package com.example.servicea.exception;
+package com.example.servicea.exception.common;
 
 public class GlobalErrorCode {
     public static final String ERROR_ENTITY_NOT_FOUND = "SAMPLE-SERVICE-1000";
